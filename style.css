@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    background-color: #5b328d;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cursor{
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    height: 45px;
+    width: 45px;
+    opacity: .8;
+    border-radius: 50%;
+   mix-blend-mode:difference; /*for the opecity while moving cursor above text*/
+   transition: all ease .15s;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 300px;
+}
